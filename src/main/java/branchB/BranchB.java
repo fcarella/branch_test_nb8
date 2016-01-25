@@ -3,13 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package branchA;
+package branchB;
+
+import branchA.*;
 
 /**
  *
  * @author fred
  */
-public class BranchA {
+public class BranchB {
     private static String branch="BranchA";
 
     /**
@@ -19,7 +21,7 @@ public class BranchA {
         return branch;
     }
 
-    public BranchA() {
+    public BranchB() {
     }
     
 }
